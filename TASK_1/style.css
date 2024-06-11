@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #000000;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+/* Nav bar starts */
+
+nav {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Nav bar ends */
+
+/* hero section starts */
+
+#hero {
+    background: url('karr2.png') no-repeat center center/cover;
+    width:90% ;
+    margin-top: 100px;
+    height: 600px ;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color: #000000;
+    background-color: #ffffff;
+    margin-top: 200px;
+}
+
+.hero-content {
+    max-width: 600px;
+    /* margin-top: -10px; */
+    margin-bottom: 645px;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hey{
+color: #000000;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #413f3f;
+}
+
+
+/* Hero section ends */
+
+section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+/* Model starts here */
+
+.models-container, .features-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.model, .feature {
+    text-align: center;
+    flex: 1 1 calc(33.333% - 2rem);
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.model:hover, .feature:hover {
+    transform: scale(1.05);
+}
+
+.model img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+/* Models ends here */
+
+/* forms starts here */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.75rem 1.5rem;
+    background: #e11c1c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #343434;
+}
+/* form ends here */
+/* footer  */
+footer {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
