@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <div class="input-section">
+            <div class="task-inputs">
+                <input type="text" id="taskInput" placeholder="Add a new task...">
+                <input type="text" id="categoryInput" placeholder="Category">
+                <select id="priorityInput">
+                    <option value="Select">--Select Priority--</option>
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+            </div>
+            <div class="due-date-input">
+                <input type="date" id="dueDateInput">
+            </div>
+            <div class="submit-button">
+                <button id="addTaskButton">Add Task</button>
+            </div>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
